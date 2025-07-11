@@ -1,0 +1,87 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Doc_FX
+  name: Doc_FX
+  href: api/Doc_FX.html
+  commentId: N:Doc_FX
+  fullName: Doc_FX
+  nameWithType: Doc_FX
+- uid: Doc_FX.DatosOdoo
+  name: DatosOdoo
+  href: api/Doc_FX.DatosOdoo.html
+  commentId: T:Doc_FX.DatosOdoo
+  fullName: Doc_FX.DatosOdoo
+  nameWithType: DatosOdoo
+- uid: Doc_FX.DatosOdoo.cambioMasivo(System.String,System.Collections.Generic.List{System.String},System.String,System.String)
+  name: cambioMasivo(string, List<string>, string, string)
+  href: api/Doc_FX.DatosOdoo.html#Doc_FX_DatosOdoo_cambioMasivo_System_String_System_Collections_Generic_List_System_String__System_String_System_String_
+  commentId: M:Doc_FX.DatosOdoo.cambioMasivo(System.String,System.Collections.Generic.List{System.String},System.String,System.String)
+  name.vb: cambioMasivo(String, List(Of String), String, String)
+  fullName: Doc_FX.DatosOdoo.cambioMasivo(string, System.Collections.Generic.List<string>, string, string)
+  fullName.vb: Doc_FX.DatosOdoo.cambioMasivo(String, System.Collections.Generic.List(Of String), String, String)
+  nameWithType: DatosOdoo.cambioMasivo(string, List<string>, string, string)
+  nameWithType.vb: DatosOdoo.cambioMasivo(String, List(Of String), String, String)
+- uid: Doc_FX.DatosOdoo.cambioMasivo*
+  name: cambioMasivo
+  href: api/Doc_FX.DatosOdoo.html#Doc_FX_DatosOdoo_cambioMasivo_
+  commentId: Overload:Doc_FX.DatosOdoo.cambioMasivo
+  fullName: Doc_FX.DatosOdoo.cambioMasivo
+  nameWithType: DatosOdoo.cambioMasivo
+- uid: Doc_FX.DatosOdoo.pideCamposOdoo(System.String)
+  name: pideCamposOdoo(string)
+  href: api/Doc_FX.DatosOdoo.html#Doc_FX_DatosOdoo_pideCamposOdoo_System_String_
+  commentId: M:Doc_FX.DatosOdoo.pideCamposOdoo(System.String)
+  name.vb: pideCamposOdoo(String)
+  fullName: Doc_FX.DatosOdoo.pideCamposOdoo(string)
+  fullName.vb: Doc_FX.DatosOdoo.pideCamposOdoo(String)
+  nameWithType: DatosOdoo.pideCamposOdoo(string)
+  nameWithType.vb: DatosOdoo.pideCamposOdoo(String)
+- uid: Doc_FX.DatosOdoo.pideCamposOdoo*
+  name: pideCamposOdoo
+  href: api/Doc_FX.DatosOdoo.html#Doc_FX_DatosOdoo_pideCamposOdoo_
+  commentId: Overload:Doc_FX.DatosOdoo.pideCamposOdoo
+  fullName: Doc_FX.DatosOdoo.pideCamposOdoo
+  nameWithType: DatosOdoo.pideCamposOdoo
+- uid: Doc_FX.DatosOdoo.pideModelosOdoo
+  name: pideModelosOdoo()
+  href: api/Doc_FX.DatosOdoo.html#Doc_FX_DatosOdoo_pideModelosOdoo
+  commentId: M:Doc_FX.DatosOdoo.pideModelosOdoo
+  fullName: Doc_FX.DatosOdoo.pideModelosOdoo()
+  nameWithType: DatosOdoo.pideModelosOdoo()
+- uid: Doc_FX.DatosOdoo.pideModelosOdoo*
+  name: pideModelosOdoo
+  href: api/Doc_FX.DatosOdoo.html#Doc_FX_DatosOdoo_pideModelosOdoo_
+  commentId: Overload:Doc_FX.DatosOdoo.pideModelosOdoo
+  fullName: Doc_FX.DatosOdoo.pideModelosOdoo
+  nameWithType: DatosOdoo.pideModelosOdoo
+- uid: Doc_FX.DatosOdoo.pideTablaOdoo(System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})
+  name: pideTablaOdoo(string, List<string>, List<string>)
+  href: api/Doc_FX.DatosOdoo.html#Doc_FX_DatosOdoo_pideTablaOdoo_System_String_System_Collections_Generic_List_System_String__System_Collections_Generic_List_System_String__
+  commentId: M:Doc_FX.DatosOdoo.pideTablaOdoo(System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})
+  name.vb: pideTablaOdoo(String, List(Of String), List(Of String))
+  fullName: Doc_FX.DatosOdoo.pideTablaOdoo(string, System.Collections.Generic.List<string>, System.Collections.Generic.List<string>)
+  fullName.vb: Doc_FX.DatosOdoo.pideTablaOdoo(String, System.Collections.Generic.List(Of String), System.Collections.Generic.List(Of String))
+  nameWithType: DatosOdoo.pideTablaOdoo(string, List<string>, List<string>)
+  nameWithType.vb: DatosOdoo.pideTablaOdoo(String, List(Of String), List(Of String))
+- uid: Doc_FX.DatosOdoo.pideTablaOdoo*
+  name: pideTablaOdoo
+  href: api/Doc_FX.DatosOdoo.html#Doc_FX_DatosOdoo_pideTablaOdoo_
+  commentId: Overload:Doc_FX.DatosOdoo.pideTablaOdoo
+  fullName: Doc_FX.DatosOdoo.pideTablaOdoo
+  nameWithType: DatosOdoo.pideTablaOdoo
+- uid: Doc_FX.DatosOdoo.sobrescribirTabla(System.String,System.Data.DataTable)
+  name: sobrescribirTabla(string, DataTable)
+  href: api/Doc_FX.DatosOdoo.html#Doc_FX_DatosOdoo_sobrescribirTabla_System_String_System_Data_DataTable_
+  commentId: M:Doc_FX.DatosOdoo.sobrescribirTabla(System.String,System.Data.DataTable)
+  name.vb: sobrescribirTabla(String, DataTable)
+  fullName: Doc_FX.DatosOdoo.sobrescribirTabla(string, System.Data.DataTable)
+  fullName.vb: Doc_FX.DatosOdoo.sobrescribirTabla(String, System.Data.DataTable)
+  nameWithType: DatosOdoo.sobrescribirTabla(string, DataTable)
+  nameWithType.vb: DatosOdoo.sobrescribirTabla(String, DataTable)
+- uid: Doc_FX.DatosOdoo.sobrescribirTabla*
+  name: sobrescribirTabla
+  href: api/Doc_FX.DatosOdoo.html#Doc_FX_DatosOdoo_sobrescribirTabla_
+  commentId: Overload:Doc_FX.DatosOdoo.sobrescribirTabla
+  fullName: Doc_FX.DatosOdoo.sobrescribirTabla
+  nameWithType: DatosOdoo.sobrescribirTabla

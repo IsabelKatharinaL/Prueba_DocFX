@@ -1,0 +1,9 @@
+{
+  "Doc_FX": "Doc_FX.yml",
+  "Doc_FX.DatosOdoo": "Doc_FX.DatosOdoo.yml",
+  "Doc_FX.DatosOdoo.cambioMasivo(System.String,System.Collections.Generic.List{System.String},System.String,System.String)": "Doc_FX.DatosOdoo.yml",
+  "Doc_FX.DatosOdoo.pideCamposOdoo(System.String)": "Doc_FX.DatosOdoo.yml",
+  "Doc_FX.DatosOdoo.pideModelosOdoo": "Doc_FX.DatosOdoo.yml",
+  "Doc_FX.DatosOdoo.pideTablaOdoo(System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})": "Doc_FX.DatosOdoo.yml",
+  "Doc_FX.DatosOdoo.sobrescribirTabla(System.String,System.Data.DataTable)": "Doc_FX.DatosOdoo.yml"
+}

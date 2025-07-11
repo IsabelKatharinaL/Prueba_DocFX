@@ -1,0 +1,608 @@
+### YamlMime:ManagedReference
+items:
+- uid: Doc_FX.DatosOdoo
+  commentId: T:Doc_FX.DatosOdoo
+  id: DatosOdoo
+  parent: Doc_FX
+  children:
+  - Doc_FX.DatosOdoo.cambioMasivo(System.String,System.Collections.Generic.List{System.String},System.String,System.String)
+  - Doc_FX.DatosOdoo.pideCamposOdoo(System.String)
+  - Doc_FX.DatosOdoo.pideModelosOdoo
+  - Doc_FX.DatosOdoo.pideTablaOdoo(System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})
+  - Doc_FX.DatosOdoo.sobrescribirTabla(System.String,System.Data.DataTable)
+  langs:
+  - csharp
+  - vb
+  name: DatosOdoo
+  nameWithType: DatosOdoo
+  fullName: Doc_FX.DatosOdoo
+  type: Class
+  assemblies:
+  - Doc_FX
+  namespace: Doc_FX
+  summary: Módulo de funciones públicas y privadas con funcionaliades de Odoo
+  example: []
+  syntax:
+    content: >-
+      [StandardModule]
+
+      public sealed class DatosOdoo
+    content.vb: >-
+      <StandardModule>
+
+      Public NotInheritable Class DatosOdoo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  attributes:
+  - type: Microsoft.VisualBasic.CompilerServices.StandardModuleAttribute
+    ctor: Microsoft.VisualBasic.CompilerServices.StandardModuleAttribute.#ctor
+    arguments: []
+- uid: Doc_FX.DatosOdoo.pideTablaOdoo(System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})
+  commentId: M:Doc_FX.DatosOdoo.pideTablaOdoo(System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})
+  id: pideTablaOdoo(System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})
+  parent: Doc_FX.DatosOdoo
+  langs:
+  - csharp
+  - vb
+  name: pideTablaOdoo(string, List<string>, List<string>)
+  nameWithType: DatosOdoo.pideTablaOdoo(string, List<string>, List<string>)
+  fullName: Doc_FX.DatosOdoo.pideTablaOdoo(string, System.Collections.Generic.List<string>, System.Collections.Generic.List<string>)
+  type: Method
+  assemblies:
+  - Doc_FX
+  namespace: Doc_FX
+  summary: Función pública que pide una tabla de datos a Odoo
+  example: []
+  syntax:
+    content: public static DataTable pideTablaOdoo(string modelo, List<string> listaDomain, List<string> listaCampos)
+    parameters:
+    - id: modelo
+      type: System.String
+      description: Modelo del que pedimos los datos
+    - id: listaDomain
+      type: System.Collections.Generic.List{System.String}
+      description: Filtros de búsqueda
+    - id: listaCampos
+      type: System.Collections.Generic.List{System.String}
+      description: Campos que queremos mostrar
+    return:
+      type: System.Data.DataTable
+      description: Tabla
+    content.vb: Public Shared Function pideTablaOdoo(modelo As String, listaDomain As List(Of String), listaCampos As List(Of String)) As DataTable
+  overload: Doc_FX.DatosOdoo.pideTablaOdoo*
+  nameWithType.vb: DatosOdoo.pideTablaOdoo(String, List(Of String), List(Of String))
+  fullName.vb: Doc_FX.DatosOdoo.pideTablaOdoo(String, System.Collections.Generic.List(Of String), System.Collections.Generic.List(Of String))
+  name.vb: pideTablaOdoo(String, List(Of String), List(Of String))
+- uid: Doc_FX.DatosOdoo.pideModelosOdoo
+  commentId: M:Doc_FX.DatosOdoo.pideModelosOdoo
+  id: pideModelosOdoo
+  parent: Doc_FX.DatosOdoo
+  langs:
+  - csharp
+  - vb
+  name: pideModelosOdoo()
+  nameWithType: DatosOdoo.pideModelosOdoo()
+  fullName: Doc_FX.DatosOdoo.pideModelosOdoo()
+  type: Method
+  assemblies:
+  - Doc_FX
+  namespace: Doc_FX
+  summary: Función públlica que trae todos los modelos disponibles en el ERP
+  example: []
+  syntax:
+    content: public static DataTable pideModelosOdoo()
+    return:
+      type: System.Data.DataTable
+      description: Tabla
+    content.vb: Public Shared Function pideModelosOdoo() As DataTable
+  overload: Doc_FX.DatosOdoo.pideModelosOdoo*
+- uid: Doc_FX.DatosOdoo.pideCamposOdoo(System.String)
+  commentId: M:Doc_FX.DatosOdoo.pideCamposOdoo(System.String)
+  id: pideCamposOdoo(System.String)
+  parent: Doc_FX.DatosOdoo
+  langs:
+  - csharp
+  - vb
+  name: pideCamposOdoo(string)
+  nameWithType: DatosOdoo.pideCamposOdoo(string)
+  fullName: Doc_FX.DatosOdoo.pideCamposOdoo(string)
+  type: Method
+  assemblies:
+  - Doc_FX
+  namespace: Doc_FX
+  summary: Función pública que pide todos los campos de un modelo de Odoo
+  example: []
+  syntax:
+    content: public static DataTable pideCamposOdoo(string modelo)
+    parameters:
+    - id: modelo
+      type: System.String
+      description: Modelo de Odoo
+    return:
+      type: System.Data.DataTable
+      description: Tabla
+    content.vb: Public Shared Function pideCamposOdoo(modelo As String) As DataTable
+  overload: Doc_FX.DatosOdoo.pideCamposOdoo*
+  nameWithType.vb: DatosOdoo.pideCamposOdoo(String)
+  fullName.vb: Doc_FX.DatosOdoo.pideCamposOdoo(String)
+  name.vb: pideCamposOdoo(String)
+- uid: Doc_FX.DatosOdoo.sobrescribirTabla(System.String,System.Data.DataTable)
+  commentId: M:Doc_FX.DatosOdoo.sobrescribirTabla(System.String,System.Data.DataTable)
+  id: sobrescribirTabla(System.String,System.Data.DataTable)
+  parent: Doc_FX.DatosOdoo
+  langs:
+  - csharp
+  - vb
+  name: sobrescribirTabla(string, DataTable)
+  nameWithType: DatosOdoo.sobrescribirTabla(string, DataTable)
+  fullName: Doc_FX.DatosOdoo.sobrescribirTabla(string, System.Data.DataTable)
+  type: Method
+  assemblies:
+  - Doc_FX
+  namespace: Doc_FX
+  syntax:
+    content: public static bool sobrescribirTabla(string modelo, DataTable tabla)
+    parameters:
+    - id: modelo
+      type: System.String
+    - id: tabla
+      type: System.Data.DataTable
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function sobrescribirTabla(modelo As String, tabla As DataTable) As Boolean
+  overload: Doc_FX.DatosOdoo.sobrescribirTabla*
+  nameWithType.vb: DatosOdoo.sobrescribirTabla(String, DataTable)
+  fullName.vb: Doc_FX.DatosOdoo.sobrescribirTabla(String, System.Data.DataTable)
+  name.vb: sobrescribirTabla(String, DataTable)
+- uid: Doc_FX.DatosOdoo.cambioMasivo(System.String,System.Collections.Generic.List{System.String},System.String,System.String)
+  commentId: M:Doc_FX.DatosOdoo.cambioMasivo(System.String,System.Collections.Generic.List{System.String},System.String,System.String)
+  id: cambioMasivo(System.String,System.Collections.Generic.List{System.String},System.String,System.String)
+  parent: Doc_FX.DatosOdoo
+  langs:
+  - csharp
+  - vb
+  name: cambioMasivo(string, List<string>, string, string)
+  nameWithType: DatosOdoo.cambioMasivo(string, List<string>, string, string)
+  fullName: Doc_FX.DatosOdoo.cambioMasivo(string, System.Collections.Generic.List<string>, string, string)
+  type: Method
+  assemblies:
+  - Doc_FX
+  namespace: Doc_FX
+  syntax:
+    content: public static bool cambioMasivo(string modelo, List<string> listaDomains, string campo, string valor)
+    parameters:
+    - id: modelo
+      type: System.String
+    - id: listaDomains
+      type: System.Collections.Generic.List{System.String}
+    - id: campo
+      type: System.String
+    - id: valor
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function cambioMasivo(modelo As String, listaDomains As List(Of String), campo As String, valor As String) As Boolean
+  overload: Doc_FX.DatosOdoo.cambioMasivo*
+  nameWithType.vb: DatosOdoo.cambioMasivo(String, List(Of String), String, String)
+  fullName.vb: Doc_FX.DatosOdoo.cambioMasivo(String, System.Collections.Generic.List(Of String), String, String)
+  name.vb: cambioMasivo(String, List(Of String), String, String)
+references:
+- uid: Doc_FX
+  commentId: N:Doc_FX
+  isExternal: true
+  href: Doc_FX.html
+  name: Doc_FX
+  nameWithType: Doc_FX
+  fullName: Doc_FX
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Doc_FX.DatosOdoo.pideTablaOdoo*
+  commentId: Overload:Doc_FX.DatosOdoo.pideTablaOdoo
+  isExternal: true
+  href: Doc_FX.DatosOdoo.html#Doc_FX_DatosOdoo_pideTablaOdoo_System_String_System_Collections_Generic_List_System_String__System_Collections_Generic_List_System_String__
+  name: pideTablaOdoo
+  nameWithType: DatosOdoo.pideTablaOdoo
+  fullName: Doc_FX.DatosOdoo.pideTablaOdoo
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Data.DataTable
+  commentId: T:System.Data.DataTable
+  parent: System.Data
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datatable
+  name: DataTable
+  nameWithType: DataTable
+  fullName: System.Data.DataTable
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Data
+  commentId: N:System.Data
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Data
+  nameWithType: System.Data
+  fullName: System.Data
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Data
+    name: Data
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Data
+    name: Data
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data
+- uid: Doc_FX.DatosOdoo.pideModelosOdoo*
+  commentId: Overload:Doc_FX.DatosOdoo.pideModelosOdoo
+  isExternal: true
+  href: Doc_FX.DatosOdoo.html#Doc_FX_DatosOdoo_pideModelosOdoo
+  name: pideModelosOdoo
+  nameWithType: DatosOdoo.pideModelosOdoo
+  fullName: Doc_FX.DatosOdoo.pideModelosOdoo
+- uid: Doc_FX.DatosOdoo.pideCamposOdoo*
+  commentId: Overload:Doc_FX.DatosOdoo.pideCamposOdoo
+  isExternal: true
+  href: Doc_FX.DatosOdoo.html#Doc_FX_DatosOdoo_pideCamposOdoo_System_String_
+  name: pideCamposOdoo
+  nameWithType: DatosOdoo.pideCamposOdoo
+  fullName: Doc_FX.DatosOdoo.pideCamposOdoo
+- uid: Doc_FX.DatosOdoo.sobrescribirTabla*
+  commentId: Overload:Doc_FX.DatosOdoo.sobrescribirTabla
+  isExternal: true
+  href: Doc_FX.DatosOdoo.html#Doc_FX_DatosOdoo_sobrescribirTabla_System_String_System_Data_DataTable_
+  name: sobrescribirTabla
+  nameWithType: DatosOdoo.sobrescribirTabla
+  fullName: Doc_FX.DatosOdoo.sobrescribirTabla
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Doc_FX.DatosOdoo.cambioMasivo*
+  commentId: Overload:Doc_FX.DatosOdoo.cambioMasivo
+  isExternal: true
+  href: Doc_FX.DatosOdoo.html#Doc_FX_DatosOdoo_cambioMasivo_System_String_System_Collections_Generic_List_System_String__System_String_System_String_
+  name: cambioMasivo
+  nameWithType: DatosOdoo.cambioMasivo
+  fullName: Doc_FX.DatosOdoo.cambioMasivo

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Doc_FX
+</name>
+</assembly>
+<members>
+<member name="T:Doc_FX.DatosOdoo">
+ <summary>
+ Módulo de funciones públicas y privadas con funcionaliades de Odoo
+ </summary>
+</member>
+<member name="M:Doc_FX.DatosOdoo.pideTablaOdoo(System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})">
+ <summary>
+ Función pública que pide una tabla de datos a Odoo
+ </summary>
+ <param name="modelo">Modelo del que pedimos los datos</param>
+ <param name="listaDomain">Filtros de búsqueda</param>
+ <param name="listaCampos">Campos que queremos mostrar</param>
+ <returns>Tabla</returns>
+</member>
+<member name="M:Doc_FX.DatosOdoo.pideModelosOdoo">
+ <summary>
+ Función públlica que trae todos los modelos disponibles en el ERP
+ </summary>
+ <returns>Tabla</returns>
+</member>
+<member name="M:Doc_FX.DatosOdoo.pideCamposOdoo(System.String)">
+ <summary>
+ Función pública que pide todos los campos de un modelo de Odoo
+ </summary>
+ <param name="modelo">Modelo de Odoo</param>
+ <returns>Tabla</returns>
+</member>
+</members>
+</doc>

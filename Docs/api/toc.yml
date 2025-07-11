@@ -1,0 +1,10 @@
+### YamlMime:TableOfContent
+items:
+- uid: Doc_FX
+  name: Doc_FX
+  type: Namespace
+  items:
+  - uid: Doc_FX.DatosOdoo
+    name: DatosOdoo
+    type: Class
+memberLayout: SamePage

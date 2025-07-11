@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: Doc_FX
+  commentId: N:Doc_FX
+  id: Doc_FX
+  children:
+  - Doc_FX.DatosOdoo
+  langs:
+  - csharp
+  - vb
+  name: Doc_FX
+  nameWithType: Doc_FX
+  fullName: Doc_FX
+  type: Namespace
+  assemblies:
+  - Doc_FX
+references:
+- uid: Doc_FX.DatosOdoo
+  commentId: T:Doc_FX.DatosOdoo
+  isExternal: true
+  href: Doc_FX.DatosOdoo.html
+  name: DatosOdoo
+  nameWithType: DatosOdoo
+  fullName: Doc_FX.DatosOdoo

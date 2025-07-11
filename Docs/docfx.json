@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  "metadata": [
+    {
+      "src": [
+        {
+          "cwd": "..",
+          "files": [
+            "info/Doc_FX.dll",
+            "info/Doc_FX.xml"
+          ]
+        }
+      ],
+      "dest": ""
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "_appName": "UtilsOdoo",
+      "_appTitle": "UtilsOdoo",
+      "_enableSearch": true,
+      "pdf": true
+    }
+  }
+}

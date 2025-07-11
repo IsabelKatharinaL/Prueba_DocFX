@@ -1,0 +1,13 @@
+C:\Users\isabel.katharina\Desktop\Prueba_DocFX\Doc_FX\Doc_FX\bin\Debug\net8.0\Doc_FX.deps.json
+C:\Users\isabel.katharina\Desktop\Prueba_DocFX\Doc_FX\Doc_FX\bin\Debug\net8.0\Doc_FX.dll
+C:\Users\isabel.katharina\Desktop\Prueba_DocFX\Doc_FX\Doc_FX\bin\Debug\net8.0\Doc_FX.pdb
+C:\Users\isabel.katharina\Desktop\Prueba_DocFX\Doc_FX\Doc_FX\obj\Debug\net8.0\Doc_FX.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isabel.katharina\Desktop\Prueba_DocFX\Doc_FX\Doc_FX\obj\Debug\net8.0\Doc_FX.AssemblyInfoInputs.cache
+C:\Users\isabel.katharina\Desktop\Prueba_DocFX\Doc_FX\Doc_FX\obj\Debug\net8.0\Doc_FX.AssemblyInfo.vb
+C:\Users\isabel.katharina\Desktop\Prueba_DocFX\Doc_FX\Doc_FX\obj\Debug\net8.0\Doc_FX.vbproj.CoreCompileInputs.cache
+C:\Users\isabel.katharina\Desktop\Prueba_DocFX\Doc_FX\Doc_FX\obj\Debug\net8.0\Doc_FX.dll
+C:\Users\isabel.katharina\Desktop\Prueba_DocFX\Doc_FX\Doc_FX\obj\Debug\net8.0\refint\Doc_FX.dll
+C:\Users\isabel.katharina\Desktop\Prueba_DocFX\Doc_FX\Doc_FX\obj\Debug\net8.0\Doc_FX.pdb
+C:\Users\isabel.katharina\Desktop\Prueba_DocFX\Doc_FX\Doc_FX\obj\Debug\net8.0\ref\Doc_FX.dll
+C:\Users\isabel.katharina\Desktop\Prueba_DocFX\Doc_FX\Doc_FX\bin\Debug\net8.0\Doc_FX.xml
+C:\Users\isabel.katharina\Desktop\Prueba_DocFX\Doc_FX\Doc_FX\obj\Debug\net8.0\Doc_FX.xml

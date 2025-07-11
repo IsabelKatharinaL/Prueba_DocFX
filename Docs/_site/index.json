@@ -1,0 +1,37 @@
+{
+  "Doc_FX.DatosOdoo.html": {
+    "href": "Doc_FX.DatosOdoo.html",
+    "title": "Class DatosOdoo | UtilsOdoo",
+    "summary": "Class DatosOdoo Namespace Doc_FX Assembly Doc_FX.dll Módulo de funciones públicas y privadas con funcionaliades de Odoo [StandardModule] public sealed class DatosOdoo Inheritance object DatosOdoo Inherited Members object.GetType() object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() Methods cambioMasivo(string, List<string>, string, string) public static bool cambioMasivo(string modelo, List<string> listaDomains, string campo, string valor) Parameters modelo string listaDomains List<string> campo string valor string Returns bool pideCamposOdoo(string) Función pública que pide todos los campos de un modelo de Odoo public static DataTable pideCamposOdoo(string modelo) Parameters modelo string Modelo de Odoo Returns DataTable Tabla pideModelosOdoo() Función públlica que trae todos los modelos disponibles en el ERP public static DataTable pideModelosOdoo() Returns DataTable Tabla pideTablaOdoo(string, List<string>, List<string>) Función pública que pide una tabla de datos a Odoo public static DataTable pideTablaOdoo(string modelo, List<string> listaDomain, List<string> listaCampos) Parameters modelo string Modelo del que pedimos los datos listaDomain List<string> Filtros de búsqueda listaCampos List<string> Campos que queremos mostrar Returns DataTable Tabla sobrescribirTabla(string, DataTable) public static bool sobrescribirTabla(string modelo, DataTable tabla) Parameters modelo string tabla DataTable Returns bool"
+  },
+  "Doc_FX.html": {
+    "href": "Doc_FX.html",
+    "title": "Namespace Doc_FX | UtilsOdoo",
+    "summary": "Namespace Doc_FX Classes DatosOdoo Módulo de funciones públicas y privadas con funcionaliades de Odoo"
+  },
+  "api/Doc_FX.DatosOdoo.html": {
+    "href": "api/Doc_FX.DatosOdoo.html",
+    "title": "Class DatosOdoo | UtilsOdoo",
+    "summary": "Class DatosOdoo Namespace Doc_FX Assembly Doc_FX.dll Módulo de funciones públicas y privadas con funcionaliades de Odoo [StandardModule] public sealed class DatosOdoo Inheritance object DatosOdoo Inherited Members object.GetType() object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() Methods cambioMasivo(string, List<string>, string, string) public static bool cambioMasivo(string modelo, List<string> listaDomains, string campo, string valor) Parameters modelo string listaDomains List<string> campo string valor string Returns bool pideCamposOdoo(string) Función pública que pide todos los campos de un modelo de Odoo public static DataTable pideCamposOdoo(string modelo) Parameters modelo string Modelo de Odoo Returns DataTable Tabla pideModelosOdoo() Función públlica que trae todos los modelos disponibles en el ERP public static DataTable pideModelosOdoo() Returns DataTable Tabla pideTablaOdoo(string, List<string>, List<string>) Función pública que pide una tabla de datos a Odoo public static DataTable pideTablaOdoo(string modelo, List<string> listaDomain, List<string> listaCampos) Parameters modelo string Modelo del que pedimos los datos listaDomain List<string> Filtros de búsqueda listaCampos List<string> Campos que queremos mostrar Returns DataTable Tabla sobrescribirTabla(string, DataTable) public static bool sobrescribirTabla(string modelo, DataTable tabla) Parameters modelo string tabla DataTable Returns bool"
+  },
+  "api/Doc_FX.html": {
+    "href": "api/Doc_FX.html",
+    "title": "Namespace Doc_FX | UtilsOdoo",
+    "summary": "Namespace Doc_FX Classes DatosOdoo Módulo de funciones públicas y privadas con funcionaliades de Odoo"
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started | UtilsOdoo",
+    "summary": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | UtilsOdoo",
+    "summary": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | UtilsOdoo",
+    "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}
